@@ -1,6 +1,10 @@
+header{
+    display: block;
+}
 header .navbar{
     background-color: transparent !important;
     color: #fff;
+    display: block;
 }
 header .navbar h5{
     margin: 0;
@@ -42,4 +46,26 @@ header .navbar .social i{
 .main-navbar .nav-item a{
     color: #fff !important;
     font-weight: 500;
+}
+
+@media screen and (max-width: 375px){
+	header{
+		display: none;
+	}
+    .main-navbar .logo img{
+        width: 40px;
+        height: 40px;
+        margin: 5px 10px;
+    }
+    .main-navbar .logo .navbar-brand{
+        color: #fff;
+        font-weight: bold;
+        line-height: normal;
+        font-size: 16px;
+    }
+    header .navbar{
+        background-color: transparent !important;
+        color: #fff;
+        display: none;
+    }
 }

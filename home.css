@@ -33,4 +33,17 @@
     width: 100%;
     height: 1px;
     background-color: #fff;
+	display: block;
+}
+
+@media screen and (max-width: 375px){
+	.line{
+		width: 100%;
+		height: 1px;
+		background-color: #fff;
+		display: none;
+	}
+	.navbar-toggler-icon{
+		color: #fff !important;
+	}
 }
